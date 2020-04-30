@@ -48,9 +48,9 @@ bower_components
 
 ## Compiled scripts
 
-/lib/*.js
-/lib/**/*.js
-/src/parser/grammars/grammar.js
+#/lib/*.js
+#/lib/**/*.js
+#/src/parser/grammars/grammar.js
 
 
 ## Testing
