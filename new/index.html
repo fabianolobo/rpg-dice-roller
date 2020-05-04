@@ -122,10 +122,16 @@
   </header>
 
   <main id="main">
-    <form action="" onsubmit="roll(); return false;">
-      <label for="input">Notation</label>
-      d6<input type="text" placeholder="eg. 1d6+2d20" autofocus id="input"><button type="button">Add D6</button>
-      <button type="submit">Roll</button>
+    <form action="">
+      <label for="input">Notation</label><br>
+      <button type="button" onclick="sub(4);">-</button>d4<input type="text" value=0 autofocus id="diceCode4"><button type="button" onclick="add(4);">+</button><br>
+      <button type="button" onclick="sub(6);">-</button>d6<input type="text" value=0 autofocus id="diceCode6"><button type="button" onclick="add(6);">+</button><br>
+      <button type="button" onclick="sub(8);">-</button>d8<input type="text" value=0 autofocus id="diceCode8"><button type="button" onclick="add(8);">+</button><br>
+      <button type="button" onclick="sub(10);">-</button>d10<input type="text" value=0 autofocus id="diceCode10"><button type="button" onclick="add(10);">+</button><br>
+      <button type="button" onclick="sub(12);">-</button>d12<input type="text" value=0 autofocus id="diceCode12"><button type="button" onclick="add(12);">+</button><br>
+      <button type="button" onclick="sub(20);">-</button>d20<input type="text" value=0 autofocus id="diceCode20"><button type="button" onclick="add(20);">+</button><br>
+      <button type="button" onclick="sub(100);">-</button>d100<input type="text" value=0 autofocus id="diceCode100"><button type="button" onclick="add(100);">+</button><br>
+      <button type="button" onclick="clean();">Limpar</button><button type="button" onclick="roll();">Rolar</button>
     </form>
 
     <div>
